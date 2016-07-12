@@ -4,9 +4,8 @@
   "description": "A Slack adapter for hubot",
   "main": "./index",
   "scripts": {
-    "test": "npm run mocha && istanbul report text-summary lcov",
-    "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "mocha": "mocha --compilers coffee:coffee-script/register  --require coffee-coverage/register-istanbul --reporter spec test"
+    "test": "mocha --compilers coffee:coffee-script/register  --require coffee-coverage/register-istanbul --reporter spec test",
+    "codecov": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov",
   },
   "keywords": [
     "hubot",
