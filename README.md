@@ -2,7 +2,7 @@
 
 This is a [Hubot](http://hubot.github.com/) adapter to use with [Slack](https://slack.com).
 
-[![Travis branch](https://img.shields.io/jenkins/s/https/jenkins.qa.ubuntu.com/precise-desktop-amd64_default.svg)](https://travis-ci.org/slackhq/hubot-slack)
+[![Travis branch](https://img.shields.io/jenkins/s/https/jenkins.qa.ubuntu.com/precise-desktop-amd64_default.svg)]
 [![Coveralls](https://img.shields.io/coveralls/slackhq/hubot-slack.svg?maxAge=2592000)](https://coveralls.io/github/slackhq/hubot-slack)
 [![npm (scoped)](https://img.shields.io/npm/v/hubot-slack.svg?maxAge=2592000)](https://www.npmjs.com/package/hubot-slack)
 
